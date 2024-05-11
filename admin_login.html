@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel Login</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+<button class="redirect-button" onclick="redirectToOtherPage()">Go to Other Page</button>
+<div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <div class="form-group">
+            <label for="username" class="sr-only">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+            <label for="password" class="sr-only">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <button type="submit">Login</button>
+        <p id="error-message" style="color: red;"></p> <!-- Error message placeholder -->
+    </form>
+</div>
+
+<script src="admin_login.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>

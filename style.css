@@ -1,0 +1,64 @@
+body {
+    background-color: #333; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text */
+    text-align: center;
+}
+
+.login-container {
+    margin: 0 auto; /* Center the container */
+    max-width: 400px; /* Set maximum width */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: none; /* Hide labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: #fff; /* White text */
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #ccc; /* Placeholder text color */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.redirect-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
